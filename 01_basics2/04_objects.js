@@ -28,10 +28,30 @@ const obj2 = {3: "a", 4: "b"}
 const obj3 = {...obj1, ...obj2}
 
 //console.log(obj3)
-console.log(tinderUser);
-console.log(Object.keys(tinderUser))
-console.log(Object.values(tinderUser))
-console.log(Object.entries(tinderUser))
+// console.log(tinderUser);
+// console.log(Object.keys(tinderUser))
+// console.log(Object.values(tinderUser))
+// console.log(Object.entries(tinderUser))
 
-console.log(tinderUser.hasOwnProperty('isLogged'))
+//console.log(tinderUser.hasOwnProperty('isLogged'))
+
+const course = {
+    coursename: "Js in hindi",
+    price: "999",
+    courseinstructor: "Amit"
+}
+
+//course.courseinstructor is also equal to as belows
+
+const {courseinstructor: instructor} = course
+
+//console.log(courseinstructor)
+console.log(instructor)
+
+{
+    "name": "Amit",
+    "coursename": "Js in hindi"
+    "price": "free"
+
+}
 
